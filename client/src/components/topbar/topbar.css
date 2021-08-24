@@ -1,0 +1,67 @@
+.top {
+    background-color: white;
+    width: 100%;
+    height: 50px;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+    z-index: 1;
+}
+
+.topLeft, .topRight {
+    flex: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.topCenter {
+    flex: 4;
+}
+
+.topIcon {
+    font-size: 20px;
+    margin: 10px;
+    color: #444;
+    cursor: pointer;
+}
+
+.topList {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.topListItem {
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.searchIcon {
+    margin-left: 15px;
+    color: #650;
+    cursor: pointer;
+}
+
+.avatarIcon {
+    color: rgb(115, 102, 232);
+    margin-left: 100px;
+    margin-right: 25px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.logout {
+    color: rgb(216, 140, 140);
+}
+
+.logout:hover {
+    color: rgb(240, 101, 101);
+}
